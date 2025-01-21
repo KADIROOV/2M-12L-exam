@@ -5,13 +5,218 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="shortcut icon" href="./imgs/logo-img.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Designo</title>
   </head>
   <body>
     <header>
       <div class="logo-image">
-        <a href="home.html"><img src="./imgs/logo-img.png" /></a>
+        <a href="index.html"
+          ><img src="./imgs/designo-logo.png" width="196"
+        /></a>
+      </div>
+      <div class="nav-bar">
+        <li><a href="#">OUR COMPANY</a></li>
+        <li><a href="#">LOCATIONS</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <img src="./imgs/burger-icon.svg" />
       </div>
     </header>
+
+    <section class="sec-1">
+      <div class="section-info">
+        <h1>Award-winning custom designs and digital branding solutions</h1>
+        <p>
+          With over 10 years in the industry, we are experienced in creating
+          fully responsive websites, app design, and engaging brand experiences.
+          Find out more about our services.
+        </p>
+        <button class="btn-1">LEARN MORE</button>
+      </div>
+      <div class="section-img">
+        <img src="./imgs/hero-phone.png" width="279" alt="Phone Image" />
+      </div>
+    </section>
+
+    <section class="sec-2">
+      <div class="card card1">
+        <div class="card-image">
+          <picture>
+            <source
+              media="(min-width:1440px)"
+              srcset="./imgs/grid1-image.png"
+            />
+            <source
+              media="(min-width: 968px)"
+              srcset="./imgs/web-design-res.png"
+            />
+            <img src="./imgs/web-design-mobile.png" />
+          </picture>
+        </div>
+        <a href="./web-design.html" class="card-overlay"></a>
+        <div class="card-info1 card-info">
+          <h3>WEB DESIGN</h3>
+          <div class="view-project">
+            <p><a href="./web-design.html">VIEW PROJECTS</a></p>
+            <span><img src="./imgs/arrow-icon.svg" /></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card2">
+        <div class="card-image">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./imgs/grid2-image.png"
+            />
+            <source
+              media="(min-width: 968px)"
+              srcset="./imgs/web-design-res2.png"
+            />
+            <img src="./imgs/web-design-mobile2.png" />
+          </picture>
+        </div>
+        <a href="./web-design.html" class="card-overlay"></a>
+        <div class="card-info2 card-info">
+          <h3>APP DESIGN</h3>
+          <div class="view-project">
+            <p><a href="./web-design.html">VIEW PROJECTS</a></p>
+            <span><img src="./imgs/arrow-icon.svg" /></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card3">
+        <div class="card-image">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./imgs/grid3-image.png"
+            />
+            <source
+              media="(min-width: 968px)"
+              srcset="./imgs/web-design-res3.png"
+            />
+            <img src="./imgs/web-design-mobile3.png" />
+          </picture>
+        </div>
+        <a href="./web-design.html" class="card-overlay"></a>
+        <div class="card-info3 card-info">
+          <h3>GRAPHIC DESIGN</h3>
+          <div class="view-project">
+            <p><a href="./web-design.html">VIEW PROJECTS</a></p>
+            <span><img src="./imgs/arrow-icon.svg" /></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-3">
+      <div class="block">
+        <div class="sec-image">
+          <img src="./imgs/passionate-image.png" alt="Passionate Image" />
+        </div>
+        <div class="sec-info">
+          <div class="info-title">
+            <h4>PASSIONATE</h4>
+          </div>
+          <div class="info-text">
+            <p>
+              Each project starts with an in-depth brand research to ensure we
+              only create products that serve a purpose. We merge art, design,
+              and technology into exciting new solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="block block2">
+        <div class="sec-image">
+          <img src="./imgs/resourceful-image.png" alt="Passionate Image" />
+        </div>
+        <div class="sec-info">
+          <div class="info-title">
+            <h4>RESOURCEFUL</h4>
+          </div>
+          <div class="info-text">
+            <p>
+              Everything that we do has a strategic purpose. We use an agile
+              approach in all of our projects and value customer collaboration.
+              It guarantees superior results that fulfill our clients’ needs.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="sec-image">
+          <img src="./imgs/friendly-image.png" alt="Passionate Image" />
+        </div>
+        <div class="sec-info">
+          <div class="info-title">
+            <h4>FRIENDLY</h4>
+          </div>
+          <div class="info-text">
+            <p>
+              We are a group of enthusiastic folks who know how to put people
+              first. Our success depends on our customers, and we strive to give
+              them the best experience a company can provide.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-4">
+      <div class="big-card">
+        <div class="big-card-info">
+          <h2>Let’s talk about your project</h2>
+          <p>
+            Ready to take it to the next level? Contact us today and find out
+            how our expertise can help your business grow.
+          </p>
+        </div>
+        <a href="#" class="btn-2">GET IN TOUCH</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="floor-1">
+          <a href="index.html" class="floor-logo-image"
+            ><img src="./imgs/footer-logo.png" width="196"
+          /></a>
+          <nav class="footer-nav-bar">
+            <li><a href="#">OUR COMPANY</a></li>
+            <li><a href="#">LOCATIONS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </nav>
+        </div>
+        <div class="floor-2">
+          <p>
+            Designo Central Office
+            <span> 3886 Wellington Street Toronto, Ontario M9C 3J5</span>
+          </p>
+          <p class="paragraph-2">
+            Contact Us (Central Office) P : +1 253-863-8967 M :
+            contact@designo.co
+          </p>
+          <div class="footer-icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
