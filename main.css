@@ -290,6 +290,7 @@ header .nav-bar a {
 }
 
 .sec-4 .big-card {
+  position: relative;
   max-width: 1095px;
   margin: 0 auto;
   margin-bottom: -72px;
@@ -340,8 +341,6 @@ header .nav-bar a {
 }
 
 .footer {
-  position: relative;
-  z-index: -100;
   max-width: 100%;
   background-color: var(--black);
 }
@@ -614,7 +613,7 @@ header .nav-bar a {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    margin-bottom: -72px;
+    margin-bottom: -160px;
     padding: 0 24px;
     background-image: url(./imgs/obstarct-image3.png);
     gap: 30px;
@@ -633,5 +632,9 @@ header .nav-bar a {
 
   .big-card-info {
     margin-top: 0;
+  }
+
+  .footer-container .floor-1{
+    margin-top: 120px;
   }
 }
